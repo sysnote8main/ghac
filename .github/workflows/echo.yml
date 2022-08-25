@@ -15,4 +15,5 @@ jobs:
           echo '3' ${{ github.ref_name }}
           echo '4' ${{ github.head_ref }}
           echo '5' ${{ github.base_ref }}
+      - name: Checkout version 2
       - uses: actions/checkout@v2
